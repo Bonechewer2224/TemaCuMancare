@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Keyfoods-TestSuite">
+<!--    <test name="E2ETests- firefox" >
+        <parameter name = "browser" value="firefox" />
+        <classes>
+            <class name="tests.E2ETest_1"/>
+            <class name="tests.E2ETest_2"/>
+            <class name="tests.SmokeTest"/>
+        </classes>
+    </test>-->
+    <test name="E2ETests- chrome" >
+        <parameter name = "browser" value="chrome" />
+        <classes>
+            <class name="tests.E2ETest_1"/>
+            <class name="tests.E2ETest_2"/>
+            <class name="tests.SmokeTest"/>
+        </classes>
+    </test>
+</suite>
